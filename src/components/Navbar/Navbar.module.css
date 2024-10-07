@@ -1,0 +1,35 @@
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    z-index: 3;
+}
+.navbarContainer:hover{
+    background-color: aliceblue;
+}
+.navbarSectionOne{
+    text-align: end;
+    cursor: pointer;
+}
+.navbarSectionTwo{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbarSectionThree{
+    text-align: start;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.navbarSectionTwo li:hover{
+    color: chocolate;
+}
